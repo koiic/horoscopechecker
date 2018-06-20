@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title> QuickTeller Horoscope Checker</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="header">The Quick Teller Horoscope Cheker</h1>
+        <div class="form">
+
+            <h2 id="discovery">Know your horoscope</h2>
+            <div class="input-data">
+                <span style="font-size: 18px">Input Day and Select Month</span>
+                <br><br><br>
+                <select id="month">
+                    <option>Select a Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <br><br>
+                <input type="number" id="day" placeholder="Day of Birth">
+                <br><br><br>
+                <button id="submitBtn">Find Zodiac Sign</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="horoscope.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</html>
